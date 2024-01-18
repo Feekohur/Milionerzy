@@ -1,0 +1,43 @@
+﻿<Window x:Class="Milionerzy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Milionerzy"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18">Tu ma być logo/zdjęcie Huberta/coś co się prezentuje ładnie</TextBlock>
+        <Button Grid.Row="1" Margin="5">Odpowiedź A</Button>
+        <Button Grid.Row="1" Grid.Column="1" Margin="5">Odpowiedź B</Button>
+        <Button Grid.Row="2" Margin="5">Odpowiedź C</Button>
+        <Button Grid.Row="2" Grid.Column="1" Margin="5">Odpowiedź D</Button>
+        <TextBlock Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Padding="10" Grid.Column="2">
+            15. 1 000 000 PLN<LineBreak/>
+            14. 500 000 PLN<LineBreak/>
+            13. 250 000 PLN<LineBreak/>
+            12. 125 000 PLN<LineBreak/>
+            11. 64 000 PLN<LineBreak/>
+            10. 32 000 PLN<LineBreak/>
+            9. 16 000 PLN<LineBreak/>
+            8. 8 000 PLN<LineBreak/>
+            7. 4 000 PLN<LineBreak/>
+            6. 2 000 PLN<LineBreak/>
+            5. 1 000 PLN<LineBreak/>
+            4. 500 PLN<LineBreak/>
+            3. 300 PLN<LineBreak/>
+            2. 200 PLN<LineBreak/>
+            1. 100 PLN<LineBreak/>
+        </TextBlock>
+    </Grid>
+</Window>
